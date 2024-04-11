@@ -1,21 +1,10 @@
-// Asked in Accenture interview
-// give me the output
-console.log(1);
-setTimeout(function () {
-  console.log(2);
-}, 1000);
-setTimeout(function () {
-  console.log(3);
-}, 0);
-console.log(4);
-
-// new examples
 function a() {
-  console.log(b);
-}
-var b = 10;
-a();
+  var b = 10;
 
-console.log(x);
-var x = 5;
-console.log(x);
+  c();
+  function c() {
+    console.log(b + 2);
+  }
+}
+
+a();

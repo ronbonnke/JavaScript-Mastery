@@ -19,3 +19,14 @@ console.log(a);
 // not a good practice
 // a = undefined;
 // console.log(a);
+
+// Asked in Accenture interview
+// give me the output
+console.log(1);
+setTimeout(function () {
+  console.log(2);
+}, 1000);
+setTimeout(function () {
+  console.log(3);
+}, 0);
+console.log(4);
