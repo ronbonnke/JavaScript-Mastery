@@ -16,5 +16,6 @@ a = null;
 console.log(a);
 
 // never ever do this in js
+// not a good practice
 // a = undefined;
 // console.log(a);
