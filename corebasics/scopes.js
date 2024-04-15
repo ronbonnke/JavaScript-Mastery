@@ -1,5 +1,6 @@
+// var b = 10; //global scope
 function a() {
-  var b = 10;
+  var b = 10; // lexical scope
 
   c();
   function c() {
