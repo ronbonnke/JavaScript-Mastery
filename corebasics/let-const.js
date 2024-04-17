@@ -3,11 +3,11 @@ c = 99; // can reassign value to var types
 console.log(c);
 
 let a;
-a = 10; // can reassign value to const types
+a = 10; // "CAN" reassign value to const types
 console.log(a);
 
 const b = 100;
-// b = 1200; // CANNOT reassign value to const types
+// b = 1200; // "CANNOT" reassign value to const types
 console.log(a);
 console.log(b);
 
