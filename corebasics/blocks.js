@@ -46,9 +46,28 @@ console.log(c);
 // console.log(d);
 
 // illegal shadowing
-let e = 20;
-{
-  var e = 20; // illegal shadowing
-  console.log(e);
-}
+// let e = 20;
+// {
+//   var e = 20; // illegal shadowing
+//   console.log(e);
+// }
 // it prints the answer but gives you error
+
+// now this won't show any error
+let f = 20;
+function s() {
+  var f = 200;
+  console.log(f);
+}
+s();
+
+// let's see about const too
+const z = 88;
+{
+  const z = 500;
+  {
+    const z = 450;
+    console.log(z);
+  }
+}
+console.log(z);
