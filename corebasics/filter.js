@@ -15,10 +15,10 @@ names.filter((item) => {
 //
 //
 // // same example
-const names = ["Alice", "Bob", "Anna", "David", "Amy"];
+// const names = ["Alice", "Bob", "Anna", "David", "Amy"];
 
-const namesStartingWithA = names.filter((name) => {
-  return name.startsWith("A");
-});
+// const namesStartingWithA = names.filter((name) => {
+//   return name.startsWith("A");
+// });
 
-console.log(namesStartingWithA); // Output: ['Alice', 'Anna', 'Amy']
+// console.log(namesStartingWithA); // Output: ['Alice', 'Anna', 'Amy']
