@@ -32,7 +32,7 @@ const students = [
 ];
 
 const olderStudents = students.filter((student) => {
-  return student.age > 20;
+  return student.age > 10;
 });
 
 console.log(olderStudents);
