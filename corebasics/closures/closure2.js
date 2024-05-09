@@ -9,5 +9,6 @@ function x() {
 }
 x();
 
-// if we use var we get 66666 because of closure
-// if we use let/const we get 12345
+// if we use var we get 66666 because of var and its a closure
+
+// if we use let/const we get 12345 because let has a block scope
