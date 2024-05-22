@@ -14,3 +14,4 @@ count1.decrement();
 count1.increment();
 count1.increment();
 count1.increment();
+count1.increment();
