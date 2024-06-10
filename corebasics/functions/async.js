@@ -34,7 +34,3 @@ const data = async () => {
   }
 };
 data();
-
-// if(data?:
-// <></>:
-// <>{result.name}</>)
