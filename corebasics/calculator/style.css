@@ -1,0 +1,27 @@
+td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.calc-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cal {
+  border: 3px solid black;
+  height: 500px;
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
