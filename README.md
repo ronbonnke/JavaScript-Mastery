@@ -2,7 +2,7 @@
 
 This repository contains the code for the JavaScript Mastery course. The course covers a wide range of topics, including JavaScript fundamentals and object-oriented programming, practiced by **Ron Bonnke**.
 
-## Table of Contents
+## Table of Content
 - [JavaScript-Mastery](#javascript-mastery)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
